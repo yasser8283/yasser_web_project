@@ -1,0 +1,142 @@
+body{
+  background-color: wheat;
+  font-family: "Poppins", sans-serif;
+}
+h1{
+  font-weight: bold;
+  font-size: 100px;
+  color: rgb(255, 175, 14);
+  background-color: black;
+  font-style: italic;
+}
+h2{
+  font-weight: bold;
+  font-size:93px;
+}
+.gateway{
+  color:rgb(1, 1, 149);
+}
+
+img{
+  height: 190px;
+  width: 250px;
+}
+.card1{
+  position: relative;
+  display: inline-block;
+  width: 590px;
+}
+.card2{
+  display: block;
+  width: 603px;
+  float: right;
+  position: relative;
+}
+.card1 > img{
+  float: left;
+}
+.card2 > img{
+  float: left;
+}
+.content1{
+  position: absolute;
+  left: 274px;
+}
+.content2{
+  position: absolute;
+  left:268px;
+}
+.card3{
+  position: relative;
+  display: inline-block;
+  width: 590px;
+  top: 23px;
+}
+.card3 > img{
+  float:left;
+}
+.card4{
+  position: relative;
+  width: 604px;
+  float: right;
+  top:23px;
+}
+.card4 > img{
+  float:left;
+}
+.content3{
+  position: absolute;
+  left:273px;
+}
+.content4{
+  position: absolute;
+  left:274px;
+}
+
+@media(min-width:319px) and (max-width:480px){
+  h1{
+    font-size: 46px;
+  }
+  h2{
+    font-size:80px;
+  }
+  img{
+    height: 185px;
+    width: 242px;
+  }
+  .card1{
+    position: relative;
+    display: block;
+    width: 590px;
+  }
+  .card2{
+    display: block;
+    width: 397px;
+    float: right;
+    position: relative;
+    top: 205px;
+  }
+  .card4{
+    position: relative;
+    width: 371px;
+    float: right;
+    top:590px;
+  }
+  .card3{
+    position: relative;
+  display: inline-block;
+  width: 590px;
+  top: 425px;
+  }
+.card1 > img{
+  float: none;
+}
+.content1{
+  position: absolute;
+  left:0px;
+  font-size: 20px;
+
+}
+.card2 > img{
+  float:none;
+}
+.content2{
+  position: absolute;
+  left: 20px;
+  font-size: 18px;
+}
+.card3 > img{
+  float: none;
+}
+.content3{
+  position: absolute;
+  left: 0px;
+}
+.card4 > img{
+  float: none;
+}
+.content4{
+  position: absolute;
+  left: 0px;
+}
+}
